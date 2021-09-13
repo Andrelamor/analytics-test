@@ -1,0 +1,74 @@
+{"fields":
+        [
+          {
+            "name": "propriedade",
+            "type": "string",
+            "format": "default",
+            "title": "Propriedade",
+            "description": "Website ou aplicação que corresponde ao ponto de captura de dados do site ou da aplicação no Google Analytics"
+          },
+          {
+            "name": "mes",
+            "type": "integer",
+            "format": "default",
+            "title": "Mês",
+            "description": "Mês a que se referem os dados de acesso da linha"
+          },
+          {
+            "name": "pagina_destino",
+            "type": "string",
+            "format": "default",
+            "title": "Página de destino",
+            "description": "Categorização da URL visitada, por critério interno da DCTA, em consultas ou datasets disponíveis nos Portais"
+          },
+          {
+            "name": "sessoes",
+            "type": "integer",
+            "format": "default",
+            "title": "Sessões",
+            "description": "O período de tempo durante o qual um utilizador está ativo no seu site ou na sua aplicação. Por predefinição, se um utilizador estiver inativo durante 30 minutos ou mais, qualquer atividade futura é atribuída a uma nova sessão. Os utilizadores que saem do seu site e voltam no espaço de 30 minutos são contabilizados como parte da sessão original.",
+            "groupChar": "."
+          },
+          {
+            "name": "novas_sessoes_porcentagem",
+            "type": "number",
+            "format": "default",
+            "decimalChar": ",",
+            "title": "Porcentagem de novas sessões",
+            "description": "Porcentagem de novas sessões"
+          },
+          {
+            "name": "usuarios_novos",
+            "type": "integer",
+            "format": "default",
+            "title": "Usuários novos",
+            "description": "Número de utilizadores pela primeira vez durante o intervalo de tempo especificado",
+            "groupChar": "."
+          },
+          {
+            "name": "taxa_rejeicao",
+            "type": "number",
+            "format": "default",
+            "decimalChar": ",",
+            "title": "Taxa de rejeição",
+            "description": "Percentual de sessões em que o usuário visitou apenas uma única página e saiu, sem interagir com nenhuma outra página"
+          },
+          {
+            "name": "paginas_sessao",
+            "type": "number",
+            "format": "default",
+            "decimalChar": ",",
+            "title": "Páginas por sessão",
+            "description": "Número médio de páginas visitadas durante uma sessão, incluindo as visualizações repetidas de uma única página"
+          },
+          {
+            "name": "duracao_sessao",
+            "type": "number",
+            "format": "default",
+            "decimalChar": ",",
+            "title": "Duração média da sessão",
+            "description": "Duração média de uma sessão, em segundos",
+            "missingValues":"NA"
+          }
+        ]
+}
