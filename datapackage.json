@@ -26,18 +26,6 @@
       "description": "Recurso que agrupa e categoriza informações de referência do Google Analytics para as páginas acessadas no Portal da Transparência de Minas Gerais durante o mês do ano de 2020 a que se refere este arquivo"
     },
    {
-      "name": "ckan-paginas-destino-2020",
-      "path": "data/ckan-paginas-destino-2020.csv",
-      "profile": "tabular-data-resource",
-      "schema": "schema/schema-v1.json",
-      "title": "Páginas de Destino do Portal de Dados Abertos no ano de 2020",
-      "mediaType": "text/csv",
-      "format": "csv",
-      "encoding": "utf-8",
-      "dialect": "schema/dialect-v1.json",
-      "description": "Recurso que agrupa e categoriza informações de referência do Google Analytics para as páginas acessadas nos Portal de Dados Abertos de Minas Gerais durante o mês do ano de 2020 a que se refere este arquivo"
-    },
-        {
       "name": "portal-paginas-destino-2021-01",
       "path": "data/portal-paginas-destino-2021-01.csv",
       "profile": "tabular-data-resource",
